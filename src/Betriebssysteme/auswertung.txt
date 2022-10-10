@@ -1,0 +1,38 @@
+1.000.000 4 threads math.random:
+115761200 ns
+140255500 ns
+118740700 ns
+
+
+1.000.000 4 threads random Objekt:
+26107500 ns
+21548800 ns
+23190600 ns´ 
+
+
+100.000 4 threads math.random 
+22675300 ns
+13329600 ns
+16108600 ns
+
+
+100.000 4 threads random Objekt 
+10760700 ns
+8391400 ns
+8514400 ns
+
+
+10.000.000 8 threads math.random 
+1388753600 ns
+1725705300 ns
+1516308900 ns
+
+
+10.000.000 8 threads random Objekt 
+71460100 ns
+73044100 ns
+69222800 ns
+
+
+
+das random Objekt scheint von der Zeit her stabiler zu sein als math.random und es scheint schneller zu sein als math.random // je größer der array desto größer ist der abstand
